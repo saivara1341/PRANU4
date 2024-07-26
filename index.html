@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>PRANU</title>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Source+Code+Pro&amp;display=swap'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<iframe width="1280" height="720" src="https://www.youtube.com/embed/0STwSamdUyA?rel=0&amp;autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="video-darken"></div>
+<div class="img-mask-win"></div>
+<div class="img-mask-loose">
+
+</div>
+<div class="intro">
+	<div id="start" class="startGame d-flex flex-wrap flex-column justify-content-center align-items-center">
+		<h1 class="title">ALERT!</h1>
+		<div class=" introContainer">
+			<div class='console-container'>
+				<div id='text'>Hey Pranavi,
+					It seems that Prasad has hacked your computer. Can you figure out the question displayed there and protect your data from being compromised? </div>
+				<div class='console-underscore' id='console'></div>
+			</div>
+		</div>
+		<a id="startBtn" class="btn btn-default" role="button">SECURE</a>
+	</div>
+</div>
+<div class="img-mask"></div>
+<div class="usedLetters"></div>
+<div class="container questionsContainer  d-flex flex-wrap flex-column justify-content-center align-items-center">
+	<div class="row" id="question1">
+		<div class="col-12 d-flex justify-content-center">
+			<div id="timer"></div>
+		</div>
+		<div class="col-12 d-flex justify-content-center">
+			<div id="fiveSec">-5 secondes</div>
+
+		</div>
+		<div class="password col-12 d-flex justify-content-center">
+			<div class="hint"></div>
+		</div>
+		<div class="col-12 d-flex justify-content-center">
+			<div class="secretWord"></div>
+		</div>
+	</div>
+	<div class="letters"></div>
+
+	<div class="gameFinish flex-wrap justify-content-center align-items-center" id="win">
+		<div class="magic-word"></div>
+		<div class="finishText"></div>
+		<div class="correct-quote" style="display:none;"></div>
+		
+	</div>
+<!-- partial -->
+  <script src='https://code.jquery.com/jquery-3.7.1.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
